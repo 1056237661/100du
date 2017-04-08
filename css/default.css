@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*reset start  lili  2017-3-21 add   */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,div,form,input,textarea,tr,td,th,select{padding:0;margin: 0;}
+li{list-style: none;}
+img{border: 0; vertical-align: top;}
+a{text-decoration: none;}
+table{border-collapse: collapse;}
+input,textarea{outline:none;}
+body{font-size: 12px;font-family: "微软雅黑" sans-serif;}
+
+/*reset end*/
+
+/*common css start*/
+.gradient{
+	background:linear-gradient(top,#fff,#f8f8f8);
+	background:-moz-linear-gradient(top,#fff,#f8f8f8);/*火狐*/
+	background:-webkit-linear-gradient(top,#fff,#f8f8f8);/*chrome*/
+	background:-ms-linear-gradient(top,#fff,#f8f8f8);/*ie*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#f8f8f8)";
+	+background: #f9f9f9;
+}
+.fl{float:left;}
+.fr{float:right;}
+.clear{zoom: 1;}
+.clear:after{content: ''; display: block; clear: both;}
+/*common css end*/
+
+/*header start*/
+#header{width: 960px; margin: 0 auto; border-radius: 0 0 5px 5px; height: 30px;}
+#header .city{padding: 5px 0 0 20px ; color: #666;}
+#header .city a{background-color: #fff; border:1px solid rgb(229, 229, 229); border-radius: 4px;
+box-shadow: 1px 1px 0 rgb(237, 237, 237); color: #999; padding: 0 7px;}
+#header .city a:hover{background-color: #f1f1f1;}
+#header .city a.active{color:rgb(214,13,3); background: #fff;}
+#header .link{padding-right: 20px; line-height: 30px; color: #d5d5d5;}
+#header .link a{color:#666; background: url(../img/header_link_bg.gif) no-repeat; padding-left: 20px;}
+#header .link .ico1{background-position: 0 3px;}
+#header .link .ico2{background-position: 0 -27px;}
+#header .link a:hover{text-decoration: underline;}
+
+/*header end*/
+
+/*nav start*/
+#nav{width: 960px; height: 100px; background-color: yellow; margin: 0 auto;}
+/*nav end*/
+
+/*search start*/
+#search{width: 958px; border:1px solid rgb(219, 219, 219); height: 114px;  margin: 0 auto;
+border-radius: 6px; margin-bottom: 10px; }
+/*search end*/
+
+/*content start*/
+.content{ width: 960px; height: 800px; background-color: greenyellow; margin: 0 auto; margin-bottom: 10px;}
+.main{width: 710px; height: 600px; background-color: #eee;}
+.side{width:240px; height: 600px; background-color: blanchedalmond;}
+
+#footer{clear: both; background:  rgb(249, 249, 249) ; width:960px; border-radius: 6px; height: 64px; margin: 0 auto; margin-bottom: 30px;}
+
+/*content end*/

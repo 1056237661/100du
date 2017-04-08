@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>title</title>
+<style>
+*{margin: 0;padding: 0;}
+ul{margin: 100px auto;width: 200px;height: 200px;}
+li{list-style:none;width:200px;height:200px;position:relative;overflow:hidden;}
+div{background: orange;width:200px;height: 200px;}
+span{position:absolute;top:0;left:-200px;width:100%;height:100%;background:lightgreen;}
+</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<div></div><span></span>
+		</li>
+	</ul>
+</body>
+<script type="text/javascript" src="js/mouseenter.js"></script>
+<script type="text/javascript">
+	var oUl = document.querySelector('ul');
+	var oLi =oUl.children[0];
+	var oSpan = oUl.querySelector('span');
+	
+	mouse(oLi,oSpan,200,200);
+	
+	console.log(Math.atan2(-5,-5)*180/Math.PI);
+	console.log(Math.atan2(5,-5)*180/Math.PI);
+	console.log(Math.atan2(-5,5)*180/Math.PI);
+//	console.log(Math.atan2(7,-3)*180/Math.PI);
+</script>
+</html>
